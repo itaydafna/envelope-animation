@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { motion, Transition } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-import Defs from './layers/Defs';
+import Defs from './Defs';
 
 const InstallingAnimation = ()=> {
   return (
@@ -61,8 +61,8 @@ const InstallingAnimation = ()=> {
           />
         </motion.g>
       </g>
-      <g id="lines-and-stars">
 
+      <g id="charts-dollars-percentages">
         <motion.path
           id="chart-3"
           d="M201.65,55.22a2.26,2.26,0,0,1,1.45,2.85L197,77a2.26,2.26,0,0,1-4.3-1.4l6.15-18.91A2.26,2.26,0,0,1,201.65,55.22Zm-15.71-.35a2.25,2.25,0,0,1,1.45,2.84l-4.75,14.62a2.26,2.26,0,1,1-4.29-1.4l4.74-14.61A2.26,2.26,0,0,1,185.94,54.87Zm5.48,7.48a2.26,2.26,0,0,1,1.45,2.85l-3.07,9.45a2.26,2.26,0,0,1-4.3-1.39l3.08-9.46A2.25,2.25,0,0,1,191.42,62.35ZM177.11,57.7a2.27,2.27,0,0,1,1.45,2.85L175.48,70a2.26,2.26,0,1,1-4.29-1.4l3.07-9.45A2.26,2.26,0,0,1,177.11,57.7Z"
@@ -233,405 +233,406 @@ const InstallingAnimation = ()=> {
           }}
         />
       </g>
-      <motion.circle
-        id="oval-10"
-        cx="41.23"
-        cy="105.5"
-        r="1.5"
-        fill="url(#linear-gradient)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration:3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.5,
-          repeatDelay: 1.5,
-        }}
-      />
-      <motion.circle
-        id="oval-9"
-        cx="88.23"
-        cy="97.5"
-        r="2.5"
-        fill="url(#linear-gradient-2)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay:3.3,
-          repeatDelay: 1.3,
-        }}
-      />
-      <motion.circle
-        id="oval-8"
-        cx="118.23"
-        cy="157.5"
-        r="2.5"
-        fill="url(#linear-gradient-3)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.7,
-          repeatDelay: 1,
-        }}
-      />
-      <motion.circle
-        id="oval-7"
-        cx="248.23"
-        cy="104.5"
-        r="2.5"
-        fill="url(#linear-gradient-4)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 20.9,
-          repeatDelay: 1.9,
-        }}
-      />
-      <motion.circle
-        id="oval-6"
-        cx="147.23"
-        cy="121.5"
-        r="2.5"
-        fill="url(#linear-gradient-5)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay:3.4,
-          repeatDelay: 1.4,
-        }}
-      />
-      <motion.circle
-        id="oval-5"
-        cx="220.73"
-        cy={67}
-        r={4}
-        fill="url(#linear-gradient-6)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration:3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay:3.1,
-          repeatDelay: 1.1,
-        }}
-      />
-      <motion.circle
-        id="oval-4"
-        cx="188.73"
-        cy={31}
-        r={4}
-        fill="url(#linear-gradient-10)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration:3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay:3.7,
-          repeatDelay: 1.7,
-        }}
-      />
-      <motion.circle
-        id="oval-3"
-        cx="101.23"
-        cy="53.5"
-        r="1.5"
-        fill="url(#linear-gradient-11)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.3,
-          repeatDelay: 1.3,
-        }}
-      />
-      <motion.circle
-        id="oval-2"
-        cx="214.23"
-        cy="91.5"
-        r="1.5"
-        fill="url(#linear-gradient-12)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.1,
-          repeatDelay: 1,
-        }}
-      />
-      <motion.circle
-        id="oval-1"
-        cx="233.23"
-        cy="6.5"
-        r="1.5"
-        fill="url(#linear-gradient-13)"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay:3.65,
-          repeatDelay: 1.65,
-        }}
-      />
-      <motion.path
-        id="star-11"
-        d="M114.9,7.16a7.22,7.22,0,0,0,2,4.25,8.05,8.05,0,0,0,4.38,2.13,8.92,8.92,0,0,0-4.45,2.19,7.23,7.23,0,0,0-1.93,4.19,8.1,8.1,0,0,0-2.1-4.35,7.59,7.59,0,0,0-4.29-2,6.83,6.83,0,0,0,4.2-1.95A8.2,8.2,0,0,0,114.9,7.16Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.9,
-        }}
-      />
-      <motion.path
-        id="star-10"
-        d="M53.19,117a7.22,7.22,0,0,0,2,4.25,8,8,0,0,0,4.38,2.13,9,9,0,0,0-4.46,2.2,7.22,7.22,0,0,0-1.92,4.18,8.1,8.1,0,0,0-2.1-4.35,7.65,7.65,0,0,0-4.29-2,6.82,6.82,0,0,0,4.2-1.94A8.34,8.34,0,0,0,53.19,117Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.4,
-        }}
-      />
-      <motion.path
-        id="star-9"
-        d="M230,129.29a6.13,6.13,0,0,0,1.67,3.55,6.72,6.72,0,0,0,3.65,1.77,7.49,7.49,0,0,0-3.71,1.83,6,6,0,0,0-1.61,3.49,6.75,6.75,0,0,0-1.75-3.63,6.34,6.34,0,0,0-3.57-1.69,5.7,5.7,0,0,0,3.5-1.62A6.86,6.86,0,0,0,230,129.29Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.8,
-        }}
-      />
-      <motion.path
-        id="star-8"
-        d="M90.06,129.29a6.13,6.13,0,0,0,1.67,3.55,6.72,6.72,0,0,0,3.65,1.77,7.49,7.49,0,0,0-3.71,1.83,6,6,0,0,0-1.61,3.49,6.75,6.75,0,0,0-1.75-3.63,6.3,6.3,0,0,0-3.57-1.69,5.7,5.7,0,0,0,3.5-1.62A6.86,6.86,0,0,0,90.06,129.29Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.3,
-        }}
-      />
-      <motion.path
-        id="star-7"
-        d="M23.08,34.85a4.86,4.86,0,0,0,1.34,2.84,5.33,5.33,0,0,0,2.92,1.41,6,6,0,0,0-3,1.47,4.85,4.85,0,0,0-1.29,2.79,5.32,5.32,0,0,0-1.4-2.9,5.1,5.1,0,0,0-2.85-1.36,4.55,4.55,0,0,0,2.8-1.29A5.52,5.52,0,0,0,23.08,34.85Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.65,
-        }}
-      />
-      <motion.path
-        id="star-6"
-        d="M183.38,104.35a3.67,3.67,0,0,0,1,2.12,4,4,0,0,0,2.19,1.07,4.54,4.54,0,0,0-2.22,1.09,3.62,3.62,0,0,0-1,2.1,4,4,0,0,0-1-2.18,3.77,3.77,0,0,0-2.14-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,183.38,104.35Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.1,
-        }}
-      />
-      <motion.path
-        id="star-5"
-        d="M257.13,51.71a3.62,3.62,0,0,0,1,2.12,4,4,0,0,0,2.19,1.07A4.54,4.54,0,0,0,258.1,56a3.68,3.68,0,0,0-1,2.1,4.06,4.06,0,0,0-1-2.18,3.84,3.84,0,0,0-2.15-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,257.13,51.71Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.4,
-        }}
-      />
-      <motion.path
-        id="star-4"
-        d="M153.26,160.07a3.67,3.67,0,0,0,1,2.13,4,4,0,0,0,2.19,1.06,4.46,4.46,0,0,0-2.23,1.1,3.58,3.58,0,0,0-1,2.09,4,4,0,0,0-1-2.18,3.87,3.87,0,0,0-2.15-1,3.49,3.49,0,0,0,2.11-1A4.2,4.2,0,0,0,153.26,160.07Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.85,
-        }}
-      />
-      <motion.path
-        id="star-3"
-        d="M10.26,111.07a3.67,3.67,0,0,0,1,2.13,4,4,0,0,0,2.19,1.06,4.46,4.46,0,0,0-2.23,1.1,3.58,3.58,0,0,0-1,2.09,4,4,0,0,0-1-2.18,3.87,3.87,0,0,0-2.15-1,3.49,3.49,0,0,0,2.11-1A4.2,4.2,0,0,0,10.26,111.07Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.45,
-        }}
-      />
-      <motion.path
-        id="star-2"
-        d="M142.74,51.71a3.67,3.67,0,0,0,1,2.12,4,4,0,0,0,2.2,1.07A4.54,4.54,0,0,0,143.71,56a3.68,3.68,0,0,0-1,2.1,4,4,0,0,0-1.05-2.18,3.77,3.77,0,0,0-2.14-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,142.74,51.71Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.9,
-        }}
-      />
-      <motion.path
-        id="star-1"
-        d="M83.29,20.43A2.34,2.34,0,0,0,84,21.85a2.65,2.65,0,0,0,1.46.71,3,3,0,0,0-1.49.73,2.44,2.44,0,0,0-.64,1.4,2.71,2.71,0,0,0-.7-1.45,2.56,2.56,0,0,0-1.43-.68,2.24,2.24,0,0,0,1.4-.65A2.77,2.77,0,0,0,83.29,20.43Z"
-        transform="translate(-3.27)"
-        fill="#b8c8fa"
-        fillRule="evenodd"
-        animate={{
-          scale: [0, 1, 1, 1, 0],
-          opacity: [0, 1, 1, 1],
-        }}
-        transition={{
-          duration: 3,
-          ease: 'easeOut',
-          repeat: Infinity,
-          delay: 3.25,
-        }}
-      /> 
-      <g id="envelope-folds">
-
-        <path
-          id="left-fold"
-          d="M141.43,190.71,88.82,221.33a2,2,0,0,1-2.7-.71,2,2,0,0,1-.27-1V156.68a2,2,0,0,1,3-1.7l52.61,30.62a3,3,0,0,1,0,5.11Z"
-          transform="translate(-3.27)"
-          fill="#4d75f2"
-          fillRule="evenodd"
+      <g id="circles-and-stars">
+        <motion.circle
+          id="oval-10"
+          cx="41.23"
+          cy="105.5"
+          r="1.5"
+          fill="url(#linear-gradient)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration:3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.5,
+            repeatDelay: 1.5,
+          }}
         />
-        <path
-          id="right-fold"
-          d="M147.15,185.12l52.61-30.62a2,2,0,0,1,2.7.71,2,2,0,0,1,.27,1v62.94a2,2,0,0,1-2,2,1.91,1.91,0,0,1-1-.27l-52.61-30.62a2.94,2.94,0,0,1,0-5.1Z"
-          transform="translate(-3.27)"
-          fill="#4d75f2"
-          fillRule="evenodd"
+        <motion.circle
+          id="oval-9"
+          cx="88.23"
+          cy="97.5"
+          r="2.5"
+          fill="url(#linear-gradient-2)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay:3.3,
+            repeatDelay: 1.3,
+          }}
         />
-        <path
-          id="bottom-fold-line"
-          d="M147,176.81l52.15,40.32a1,1,0,0,1-.59,1.75H88.37a1,1,0,0,1-.59-1.75l52.15-40.32A5.78,5.78,0,0,1,147,176.81Z"
-          transform="translate(-3.27)"
-          fill="#fff"
-          fillRule="evenodd"
-          opacity="0.7"
-          style={{ isolation: 'isolate' }}
+        <motion.circle
+          id="oval-8"
+          cx="118.23"
+          cy="157.5"
+          r="2.5"
+          fill="url(#linear-gradient-3)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.7,
+            repeatDelay: 1,
+          }}
         />
-        <path
-          id="bottom-fold"
-          d="M146.85,180.26l53.07,40.33a1,1,0,0,1-.6,1.74H87.19a1,1,0,0,1-.6-1.74l53.07-40.33A6,6,0,0,1,146.85,180.26Z"
-          transform="translate(-3.27)"
-          fill="#4d75f2"
-          fillRule="evenodd"
+        <motion.circle
+          id="oval-7"
+          cx="248.23"
+          cy="104.5"
+          r="2.5"
+          fill="url(#linear-gradient-4)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 20.9,
+            repeatDelay: 1.9,
+          }}
         />
+        <motion.circle
+          id="oval-6"
+          cx="147.23"
+          cy="121.5"
+          r="2.5"
+          fill="url(#linear-gradient-5)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay:3.4,
+            repeatDelay: 1.4,
+          }}
+        />
+        <motion.circle
+          id="oval-5"
+          cx="220.73"
+          cy={67}
+          r={4}
+          fill="url(#linear-gradient-6)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration:3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay:3.1,
+            repeatDelay: 1.1,
+          }}
+        />
+        <motion.circle
+          id="oval-4"
+          cx="188.73"
+          cy={31}
+          r={4}
+          fill="url(#linear-gradient-10)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration:3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay:3.7,
+            repeatDelay: 1.7,
+          }}
+        />
+        <motion.circle
+          id="oval-3"
+          cx="101.23"
+          cy="53.5"
+          r="1.5"
+          fill="url(#linear-gradient-11)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.3,
+            repeatDelay: 1.3,
+          }}
+        />
+        <motion.circle
+          id="oval-2"
+          cx="214.23"
+          cy="91.5"
+          r="1.5"
+          fill="url(#linear-gradient-12)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.1,
+            repeatDelay: 1,
+          }}
+        />
+        <motion.circle
+          id="oval-1"
+          cx="233.23"
+          cy="6.5"
+          r="1.5"
+          fill="url(#linear-gradient-13)"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay:3.65,
+            repeatDelay: 1.65,
+          }}
+        />
+        <motion.path
+          id="star-11"
+          d="M114.9,7.16a7.22,7.22,0,0,0,2,4.25,8.05,8.05,0,0,0,4.38,2.13,8.92,8.92,0,0,0-4.45,2.19,7.23,7.23,0,0,0-1.93,4.19,8.1,8.1,0,0,0-2.1-4.35,7.59,7.59,0,0,0-4.29-2,6.83,6.83,0,0,0,4.2-1.95A8.2,8.2,0,0,0,114.9,7.16Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.9,
+          }}
+        />
+        <motion.path
+          id="star-10"
+          d="M53.19,117a7.22,7.22,0,0,0,2,4.25,8,8,0,0,0,4.38,2.13,9,9,0,0,0-4.46,2.2,7.22,7.22,0,0,0-1.92,4.18,8.1,8.1,0,0,0-2.1-4.35,7.65,7.65,0,0,0-4.29-2,6.82,6.82,0,0,0,4.2-1.94A8.34,8.34,0,0,0,53.19,117Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.4,
+          }}
+        />
+        <motion.path
+          id="star-9"
+          d="M230,129.29a6.13,6.13,0,0,0,1.67,3.55,6.72,6.72,0,0,0,3.65,1.77,7.49,7.49,0,0,0-3.71,1.83,6,6,0,0,0-1.61,3.49,6.75,6.75,0,0,0-1.75-3.63,6.34,6.34,0,0,0-3.57-1.69,5.7,5.7,0,0,0,3.5-1.62A6.86,6.86,0,0,0,230,129.29Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.8,
+          }}
+        />
+        <motion.path
+          id="star-8"
+          d="M90.06,129.29a6.13,6.13,0,0,0,1.67,3.55,6.72,6.72,0,0,0,3.65,1.77,7.49,7.49,0,0,0-3.71,1.83,6,6,0,0,0-1.61,3.49,6.75,6.75,0,0,0-1.75-3.63,6.3,6.3,0,0,0-3.57-1.69,5.7,5.7,0,0,0,3.5-1.62A6.86,6.86,0,0,0,90.06,129.29Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.3,
+          }}
+        />
+        <motion.path
+          id="star-7"
+          d="M23.08,34.85a4.86,4.86,0,0,0,1.34,2.84,5.33,5.33,0,0,0,2.92,1.41,6,6,0,0,0-3,1.47,4.85,4.85,0,0,0-1.29,2.79,5.32,5.32,0,0,0-1.4-2.9,5.1,5.1,0,0,0-2.85-1.36,4.55,4.55,0,0,0,2.8-1.29A5.52,5.52,0,0,0,23.08,34.85Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.65,
+          }}
+        />
+        <motion.path
+          id="star-6"
+          d="M183.38,104.35a3.67,3.67,0,0,0,1,2.12,4,4,0,0,0,2.19,1.07,4.54,4.54,0,0,0-2.22,1.09,3.62,3.62,0,0,0-1,2.1,4,4,0,0,0-1-2.18,3.77,3.77,0,0,0-2.14-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,183.38,104.35Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.1,
+          }}
+        />
+        <motion.path
+          id="star-5"
+          d="M257.13,51.71a3.62,3.62,0,0,0,1,2.12,4,4,0,0,0,2.19,1.07A4.54,4.54,0,0,0,258.1,56a3.68,3.68,0,0,0-1,2.1,4.06,4.06,0,0,0-1-2.18,3.84,3.84,0,0,0-2.15-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,257.13,51.71Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.4,
+          }}
+        />
+        <motion.path
+          id="star-4"
+          d="M153.26,160.07a3.67,3.67,0,0,0,1,2.13,4,4,0,0,0,2.19,1.06,4.46,4.46,0,0,0-2.23,1.1,3.58,3.58,0,0,0-1,2.09,4,4,0,0,0-1-2.18,3.87,3.87,0,0,0-2.15-1,3.49,3.49,0,0,0,2.11-1A4.2,4.2,0,0,0,153.26,160.07Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.85,
+          }}
+        />
+        <motion.path
+          id="star-3"
+          d="M10.26,111.07a3.67,3.67,0,0,0,1,2.13,4,4,0,0,0,2.19,1.06,4.46,4.46,0,0,0-2.23,1.1,3.58,3.58,0,0,0-1,2.09,4,4,0,0,0-1-2.18,3.87,3.87,0,0,0-2.15-1,3.49,3.49,0,0,0,2.11-1A4.2,4.2,0,0,0,10.26,111.07Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.45,
+          }}
+        />
+        <motion.path
+          id="star-2"
+          d="M142.74,51.71a3.67,3.67,0,0,0,1,2.12,4,4,0,0,0,2.2,1.07A4.54,4.54,0,0,0,143.71,56a3.68,3.68,0,0,0-1,2.1,4,4,0,0,0-1.05-2.18,3.77,3.77,0,0,0-2.14-1,3.39,3.39,0,0,0,2.1-1A4.1,4.1,0,0,0,142.74,51.71Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.9,
+          }}
+        />
+        <motion.path
+          id="star-1"
+          d="M83.29,20.43A2.34,2.34,0,0,0,84,21.85a2.65,2.65,0,0,0,1.46.71,3,3,0,0,0-1.49.73,2.44,2.44,0,0,0-.64,1.4,2.71,2.71,0,0,0-.7-1.45,2.56,2.56,0,0,0-1.43-.68,2.24,2.24,0,0,0,1.4-.65A2.77,2.77,0,0,0,83.29,20.43Z"
+          transform="translate(-3.27)"
+          fill="#b8c8fa"
+          fillRule="evenodd"
+          animate={{
+            scale: [0, 1, 1, 1, 0],
+            opacity: [0, 1, 1, 1],
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeOut',
+            repeat: Infinity,
+            delay: 3.25,
+          }}
+        /> 
+        <g id="envelope-folds">
+          <path
+            id="left-fold"
+            d="M141.43,190.71,88.82,221.33a2,2,0,0,1-2.7-.71,2,2,0,0,1-.27-1V156.68a2,2,0,0,1,3-1.7l52.61,30.62a3,3,0,0,1,0,5.11Z"
+            transform="translate(-3.27)"
+            fill="#4d75f2"
+            fillRule="evenodd"
+          />
+          <path
+            id="right-fold"
+            d="M147.15,185.12l52.61-30.62a2,2,0,0,1,2.7.71,2,2,0,0,1,.27,1v62.94a2,2,0,0,1-2,2,1.91,1.91,0,0,1-1-.27l-52.61-30.62a2.94,2.94,0,0,1,0-5.1Z"
+            transform="translate(-3.27)"
+            fill="#4d75f2"
+            fillRule="evenodd"
+          />
+          <path
+            id="bottom-fold-line"
+            d="M147,176.81l52.15,40.32a1,1,0,0,1-.59,1.75H88.37a1,1,0,0,1-.59-1.75l52.15-40.32A5.78,5.78,0,0,1,147,176.81Z"
+            transform="translate(-3.27)"
+            fill="#fff"
+            fillRule="evenodd"
+            opacity="0.7"
+            style={{ isolation: 'isolate' }}
+          />
+          <path
+            id="bottom-fold"
+            d="M146.85,180.26l53.07,40.33a1,1,0,0,1-.6,1.74H87.19a1,1,0,0,1-.6-1.74l53.07-40.33A6,6,0,0,1,146.85,180.26Z"
+            transform="translate(-3.27)"
+            fill="#4d75f2"
+            fillRule="evenodd"
+          />
+        </g>
       </g>
     </svg>
 
